@@ -1,4 +1,7 @@
 function sum(a, b) {
     return a + b;
 }
-console.log(sum(5, "mafi"));
+var sum2 = function (a, b) {
+    return a + b;
+};
+console.log(sum2(5, 9));
